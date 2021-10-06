@@ -1,0 +1,272 @@
+
+/*********************************************
+** Header 
+*********************************************/
+
+/* Logo Topo */
+.topHeader #logo {
+    flex: 1;
+}
+
+/* Cabeçalho Topo */
+.nav-top {
+    background-color: #000;
+    float: left;
+    width: 100%;
+    height: 37px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#cabecalhoTopo {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 9px;
+}
+
+#cabecalhoTopo .linkHeader a{
+    font-family: 'Montserrat', sans-serif;
+    color: #F2F2F2;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+#cabecalhoTopo i {
+    font-size: 20px;
+    color: #D2AB67;
+    margin-right: 5px;
+    line-height: 20px;
+}
+
+#cabecalhoTopo .texto {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    display:inline-block;
+    list-style: none;
+}
+.linkHeader {
+    padding-left: 15px;
+}
+
+/* Menu Principal */
+
+#header .container {
+    display: flex;
+	align-items: flex-end;
+}
+
+#menu-menu-principal {
+    margin-bottom: 0px;
+}
+
+.topHeader {
+    float: left;
+    width: 100%;
+    background: #Fff;
+    padding: 10px 0 20px 0;
+}
+
+.topHeader #menuPrincipal {
+    flex: 1;
+    text-align: right;
+}
+
+.topHeader #menuPrincipal li {
+    list-style: none;
+    display: inline-block;
+    padding: 7px;
+}
+
+.topHeader #menuPrincipal ul li a {
+    color: #333333;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: solid 1px;
+    border-color: transparent;
+    padding: 15px 7px;
+    display: inline-block;
+    font-family: 'Abhaya Libre', serif;
+    line-height: 100%;
+}
+
+#header .topHeader #boxMenu {
+	display: inline-block;
+}
+
+#header .topHeader #boxMenu ul li {
+	position: relative;
+}
+
+#header .topHeader #boxMenu ul li::before {
+    position: absolute;
+    content: '.';
+    color: #333333;
+    font-size: 18px;
+    right: -3px;
+    top: 40%;
+    line-height: 0%;
+}
+
+#header .topHeader #boxMenu ul li:last-child::before{
+    display: none;
+}
+
+#header .topHeader #boxMenu ul li.current_page_item a,
+#header .topHeader #boxMenu ul li a:hover {
+    border-color: #D2AB67;
+    color: #323a4d;
+}
+
+/* Submenu  */
+#header .topHeader #boxMenu ul li:hover ul {
+	display: block;
+}
+
+#header .topHeader #boxMenu ul li ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 1px 0 0 0;
+    display: none;
+    z-index: 99;
+    width: 240px;
+}
+
+#header .topHeader #boxMenu ul li ul li {
+    width: 100%;
+    margin: 0;
+}
+
+#header .topHeader #boxMenu ul li ul li a {
+    border: 0;
+    color: #333333;
+    padding: 12px 15px;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    background: #D2AB67;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+#header .topHeader #boxMenu ul li ul li a:hover {
+	background: #333333;
+    color: #fff;
+}
+/* Fecha menu */
+
+#header #fechaMenuMobile {
+    display: none;
+}
+
+/* Menu Mobile */
+
+#menuMobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    /* Logo */
+    #logo img {
+        max-width: 60%!important;
+    }
+    
+    /* Cabeçalho Topo */
+    .nav-top {
+        display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+        width: 100%;
+        font-size: 12px;
+    }
+
+    #cabecalhoTopo .linkHeader.email {
+        display: none;
+    }
+
+    /* Menu Principal */
+    #header #menuPrincipal {
+        position: fixed;
+        display: block;
+        left: -100%;
+        top: 0;
+        right: 100%;
+        margin: 0;
+        bottom: 0;
+        background: #333333;
+        z-index: 999;
+        width: 300px;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        padding: 30px;
+        transition: all 0.2s linear;
+        overflow: auto;
+    }
+	
+	#header #menuPrincipal.active {
+		left: 0;
+		right: 0;
+        width: 100%;
+	}
+
+    .topHeader #menuPrincipal ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .topHeader #menuPrincipal li {
+        width: 100%;
+        margin: 0;
+        text-align: left;
+        padding: 5px 0;
+        border-bottom: solid 1px #666;
+    }
+
+    .topHeader #menuPrincipal ul li a {
+        color: #fff!important;
+		font-weight: normal;
+		border: 0;
+    }
+    
+    /* Fecha Menu Mobile */
+    #fechaMenuMobile {
+        display: block!important;
+        text-align: end;
+    }
+
+    #fechaMenuMobile img {
+        width: 34px;
+    }
+
+	/*Menu Mobile ( Icone ) */
+    #header .topHeader #menuMobile {
+        cursor: pointer;
+        display: block;
+    }
+
+    #header .topHeader #menuMobile i{
+		font-size: 40px;
+        color: #565621;
+	}
+
+    /* Submenu ( Interno Principal ) */
+	#header .topHeader #boxMenu ul li ul {
+        display: block;
+        position: relative;
+        padding: 0;
+        margin-bottom: 10px;
+	}
+
+	#header .topHeader #boxMenu ul li ul::before {
+		display: none;
+	}
+
+	#header .topHeader #boxMenu ul li ul li {
+        border: 0;
+        margin: 0 0 5px 0;
+	}
+}

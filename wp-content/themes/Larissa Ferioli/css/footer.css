@@ -1,0 +1,204 @@
+/*********************************************
+** Footer 
+*********************************************/
+
+/* Geral */
+#footer {
+	float: left;
+	width: 100%;
+	padding: 50px 0;
+	background: url('https://odontoemcuritiba.com.br/wp-content/uploads/2020/10/bg-rodape.jpg') no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+#footer .container {
+	position: relative;
+}
+
+#footer .linhaTopo {
+	position: absolute;
+    top: 10px;
+    right: 0;
+    left: 0;
+    height: 1px;
+    background: #D2AB67;
+}
+
+/* Logo */
+#footer .logo {
+	text-align: center;
+}
+
+/* CRO/PR */
+#footer .logo span {
+	float: left;
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    margin: 20px 0 0 0;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 18px;
+}
+
+/* Botão Subir */
+#footer .botaoSubir {
+	position: absolute;
+	right: 15px;
+	top: -60px;
+	width: 40px;
+	height: 40px;
+	border-radius: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #D2AB67;
+	cursor: pointer;
+}
+
+#footer .botaoSubir i {
+	color: #fff;
+	font-size: 30px;
+	line-height: 100%;
+	margin-top: -5px;
+}
+
+/* Títulos */
+#footer .tituloFooter {
+	color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: solid 1px #4F4F4F;
+    float: left;
+    width: 100%;
+    padding: 0 0 5px 20px;
+    margin-bottom: 25px;
+    font-family: 'Abhaya Libre', serif;
+	text-transform: uppercase;
+}
+
+.dadosFooter .endereco .tituloFooter {
+	margin-bottom: 5px!important;;
+}
+
+/* Menus */
+#footer .menu ul {
+	padding: 0;
+	margin: 0;
+}
+
+#footer .menu ul li {
+	color: #fff;
+	list-style: disc!important;
+}
+
+#footer .menu ul li a {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+/* Contatos */
+#footer .contatos a {
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-bottom: 5px;
+}
+
+#footer .contatos a i {
+	color: #D2AB67;
+    font-size: 18px;
+    margin: 5px 10px 0 0;
+}
+
+#footer .contatos a span {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+/* Endereço */
+#footer .enderecoFooter {
+	float: left;
+	width: 100%;
+	padding-top: 1px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+    color: #fff;
+    line-height: 160%;
+	font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#footer .enderecoFooter span {
+	font-size: 13px;
+    color: #fff;
+    line-height: 160%;
+    float: left;
+    width: 100%;
+}
+
+#footer .enderecoFooter i {
+	color: #D2AB67;
+    font-size: 18px;
+    margin: 5px 10px 0 0;
+}
+
+/* CEP */
+#footer .cepFooter {
+	float: left;
+	width: 100%;
+	padding-top: 15px;
+	margin-left: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+#footer .cepFooter span {
+	font-size: 13px;
+    color: #fff;
+    line-height: 160%;
+    float: left;
+    width: 100%;
+}
+
+/* MMD */
+#footer .linkMMD {
+	text-align: end;
+	margin: 60px 0 0 0;
+}
+
+@media (max-width: 768px) {
+
+	/* Geral */
+	#footer {
+		padding: 30px 0!important;
+	}
+
+	/* Logo Área */
+	#footer #logoFooter {
+		margin: 0;
+		padding: 0;
+	}
+
+	/* MMD */
+	#footer .linkMMD {
+		text-align: center;
+		margin: 20px 0 0 0;
+	}
+
+	/* Menus */
+	#footer .menu,
+	#footer .contatos {
+		float: left;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	
+
+}

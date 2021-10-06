@@ -1,0 +1,161 @@
+/*********************************************
+** Contato
+*********************************************/
+
+/* Geral */
+#contato {
+	float: left;
+	width: 100%;
+	padding: 50px 0;
+}
+
+#contato h1 {
+	font-family: 'Abhaya Libre', serif;
+    font-weight: 800;
+    font-size: 60px;
+    margin: 0;
+    float: left;
+    width: 100%;
+    padding: 0 30px;
+}
+
+#contato .borda {
+	margin: 20px 0 8px 0
+}
+
+/* Bloco Inicial */
+.blocoInicial {
+	float: left;
+	width: 100%;
+}
+
+.blocoInicial .texto {
+	float: left;
+	width: 100%;
+}
+
+.blocoInicial .boxInterno {
+	text-align: center;
+}
+
+/* Formulário */
+.formulario {
+	float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.boxContato {
+	background: #323A4D;
+}
+
+.formulario .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario .wpcf7-form-control-wrap {
+	display: inline-block;
+	width: 100%;
+}
+
+.formulario input[type=text],
+.formulario input[type=email],
+.formulario textarea {
+	width: 100%;
+    padding: 12px;
+    border: solid 1px #BDBDBD;
+    margin-bottom: 15px;
+    background: #fff;
+}
+
+.formulario textarea {
+	height: 184px;
+}
+
+.formulario .col-sm-12 {
+	text-align: center;
+	margin-top: 20px;
+	position: relative;
+}
+
+.formulario .col-sm-12 input[type=submit] {
+    display: inline-block;
+    transition: all 0.2s linear 0s;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px 30px;
+    background: #D2AB67;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 18px;
+    text-transform: uppercase;
+	border: 0;
+}
+
+.formulario .col-sm-12 input[type=submit]:hover {
+	transform: scale(1.03);
+}
+
+.formulario .col-sm-12 .ajax-loader {
+	position: absolute;
+    left: calc(50% - 12px);
+    top: 13px;
+    margin: 0;
+}
+
+.formulario .wpcf7-not-valid-tip {
+	position: absolute;
+    right: 5px;
+    top: 2px;
+    font-size: 11px;
+}
+
+.formulario .wpcf7 form .wpcf7-response-output {
+	border-color: #D2AB67;
+    float: left;
+    width: 100%;
+    color: #D2AB67;
+    border: solid 1px #D2AB67;
+    font-size: 13px;
+    padding: 10px;
+    margin: 20px 0 0 0;
+}
+
+/* Mapa */
+.boxMapa {
+	float: left;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.boxMapa iframe {
+	width: 100%;
+	float: left;
+	height: 500px;
+}
+
+/* Contato Enviado */
+.contatoEnviado {
+	float: left;
+	width: 100%;
+	margin: 0 0 50px 0;
+	text-align: center;
+}
+
+.contatoEnviado span {
+	font-size: 18px;
+	color: green;
+}
+
+@media (max-width: 768px) {
+	
+	/* Geral */
+	#contato {
+		padding: 30px 0;
+	}
+
+	#contato h1 {
+		font-size: 28px;
+	}
+}

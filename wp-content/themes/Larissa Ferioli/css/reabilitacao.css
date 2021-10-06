@@ -1,0 +1,264 @@
+/*********************************************
+** Reabilitação Oral
+*********************************************/
+
+#paginaReabilitacao {
+    width: 100%;
+    float: left;
+    padding: 0 0 50px 0;
+}
+
+/* Conteúdo 1 */
+.conteudo_bocal,
+.conteudo_gestante {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+}
+
+.conteudo_diabete {
+    width: 100%;
+    float: left;
+    padding: 0 0 50px 0;
+}
+
+.conteudo_bocal .texto,
+.conteudo_gestante .texto,
+.conteudo_diabete .texto {
+    padding: 0;
+}
+
+.conteudo_bocal .textoBaixo,
+.conteudo_gestante .textoBaixo,
+.conteudo_diabete .textoBaixo {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+
+/* Conteúdo 2 */
+.conteudo_clinica {
+    float: left;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.conteudo_clinica .texto {
+    padding: 0;
+}
+
+/* Conteúdo 3 */
+.conteudo_listagem {
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+    background: #D2AB67;
+}
+
+.conteudo_listagem ul {
+    padding: 0;
+    margin: 0;
+}
+
+.conteudo_listagem ul li,
+.conteudo_listagem ul li span {
+    color: #fff;
+    font-weight: 500;
+}
+
+/* Conteúdo 4 */
+.conteudo_quando {
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+    background: #333333;
+}
+
+.conteudo_quando .titulo {
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 800;
+    font-size: 30px;
+    float: left;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 10px 0;
+}
+
+.conteudo_quando p {
+    color: #fff;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+/* Conteúdo 7 */
+.conteudo_tipos {
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+    background: #333333;
+}
+
+.conteudo_tipos .titulo {
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 800;
+    font-size: 30px;
+    float: left;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 10px 0;
+}
+
+.conteudo_tipos .texto div {
+    float: left;
+    width: 100%;
+    margin: 0 0 25px 0;
+}
+
+.conteudo_tipos .texto div p:first-of-type{
+    margin-bottom: 20px;
+}
+
+.conteudo_tipos .texto span {
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.conteudo_tipos .texto p {
+    color: #fff;
+    font-weight: 300;
+}
+
+/* Conteúdo 8 */
+.conteudo_tratamento {
+    width: 100%;
+    float: left;
+    margin: 50px 0 0 0;
+    padding: 30px 0;
+    background: #333333;
+}
+
+.conteudo_contra {
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+    margin: 0 0 50px 0;
+    background: #333333;
+}
+
+.conteudo_tratamento .titulo,
+.conteudo_contra .titulo {
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 800;
+    font-size: 30px;
+    float: left;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 10px 0;
+}
+
+.conteudo_tratamento p,
+.conteudo_contra p {
+    color: #fff;
+    font-weight: 400;
+    line-height: 200%;
+    float: left;
+    width: 100%;
+}
+
+/* Conteúdo 9 */
+.conteudo_beneficios {
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+    background: #D2AB67;
+}
+
+.conteudo_beneficios .titulo {
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 800;
+    font-size: 30px;
+    float: left;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 10px 0;
+}
+
+.conteudo_beneficios .boxInterno p {
+    color: #fff;
+    font-weight: 300;
+    float: left;
+    width: 100%;
+    margin: 0 0 15px 0;
+}
+
+.conteudo_beneficios ul {
+    padding: 0;
+    margin: 0;
+}
+
+.conteudo_beneficios ul li,
+.conteudo_beneficios ul li span {
+    color: #fff;
+    font-weight: 500;
+}
+
+/* Conteúdo 10 */
+.conteudo_longevidade {
+    float: left;
+    width: 100%;
+    padding: 50px 0; 
+}
+
+.conteudo_longevidade .textoBox {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+	
+	/* Conteúdo 1 */
+	.conteudo_bocal {
+		padding: 30px 0;
+	}
+
+	.conteudo_bocal img {
+		margin-top: 20px;
+	}
+	
+	/* Conteúdo 2 */
+    .conteudo_clinica {
+        padding: 0 0 50px 0;
+    }
+
+	.conteudo_clinica img {
+		margin-top: 20px;
+	}
+	
+	/* Conteúdo 5 */
+	.conteudo_gestante {
+		padding: 30px 0;
+	}
+	
+	.conteudo_gestante img {
+		margin-top: 20px;
+	}
+	
+	/* Conteúdo 6 */
+	.conteudo_diabete img {
+		margin-top: 20px;
+	}
+
+    /* Conteúdo 9 */
+    .conteudo_beneficios .boxInterno p {
+        font-size: 16px!important;
+    }
+
+}

@@ -1,0 +1,77 @@
+/*********************************************
+** Agendamento
+*********************************************/
+
+#paginaAgendamento {
+    width: 100%;
+    float: left;
+    padding: 0 0 50px 0;
+}
+
+/* Conteúdo 1 */
+.conteudo_agenda {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.conteudo_agenda .textoBox {
+    text-align: left;
+    width: 100%;
+}
+
+.conteudo_agenda .whatsapp {
+    float: left;
+    width: 100%;
+    margin: 30px 0;
+}
+
+/* Contatos */
+.conteudo_agenda .item {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.conteudo_agenda .item i {
+    color: #D2AB67;
+    font-size: 23px;
+    float: left;
+    width: 30px;
+}
+
+.conteudo_agenda .item span {
+    float: left;
+    margin: 0;
+    line-height: 20px;
+    color: #333333;
+    font-size: 16px;
+    max-width: calc(100% - 30px);
+    padding-left: 5px;
+}
+
+@media (max-width: 768px) {
+	
+	.conteudo_agenda {
+		padding: 30px 0;
+	}
+	
+	.conteudo_agenda figure {
+		float: left;
+	}
+	
+	.conteudo_agenda .whatsapp {
+		margin: 20px 0;
+	}
+	
+	
+    .conteudo_agenda .item span {
+		font-size: 14px;
+	}
+	
+	.conteudo_agenda figure.col-sm-6 {
+		margin-top: 30px;
+	}
+	
+}

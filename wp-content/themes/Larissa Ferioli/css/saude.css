@@ -1,0 +1,120 @@
+/*********************************************
+** Reabilitação Oral
+*********************************************/
+
+#paginaSaude {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+}
+
+/* Conteúdo 1 */
+.conteudo_saude {
+    float: left;
+    width: 100%;
+}
+
+/* Conteúdo 2 */
+.conteudo_dicas {
+    float: left;
+    width: 100%;
+}
+
+.conteudo_dicas .conteudo p {
+	color: #fff;
+}
+
+.conteudo_dicas .listaConteudos {
+    margin-bottom: 70px;
+}
+
+.conteudo_dicas .listaConteudos .card {
+    float: left;
+    border: 0;
+    width: 100%;
+    margin: 0!important;
+    padding-bottom: 10px;
+    border-radius: 0!important;
+    box-shadow: none!important;
+    background: none;
+    border-bottom: solid 1px #bebebe;
+}
+
+.conteudo_dicas .listaConteudos .card button {
+	padding: 20px 15px;
+	cursor: pointer;
+	border: 0;
+	width: 100%;
+	text-align: center;
+	background: none;
+	float: left;
+	position: relative;
+}
+
+.conteudo_dicas .listaConteudos .card button h2 {
+	padding: 0 45px 0 0;
+    color: #757575;
+    width: calc(100% - 50px);
+    text-align: left;
+    font-weight: bold;
+	text-transform: uppercase;
+    float: left;
+	margin: 0;
+	line-height: 150%;
+	font-family: 'Abhaya Libre', serif;
+	font-size: 26px;
+}
+
+.conteudo_dicas .listaConteudos .card button span {
+    float: left;
+	color: #D2AB67;
+	font-size: 30px;
+	position: absolute;
+	right: 5px;
+	top: calc(50% - 27px);
+}
+
+.conteudo_dicas .listaConteudos .card button span.menos {
+	display: inline-block;
+}
+
+.conteudo_dicas .listaConteudos .card button span.mais {
+	display: none;
+}
+
+.conteudo_dicas .listaConteudos .card button.collapsed span.mais {
+	display: inline-block!important;
+}
+
+.conteudo_dicas .listaConteudos .card button.collapsed span.menos {
+	display: none!important;
+}
+
+.diconteudo_dicascas .listaConteudos .card .boxConteudo {
+	padding: 20px 0;
+	float: left;
+    width: 100%;
+}
+
+.conteudo_dicas .listaConteudos .card .boxConteudo p {
+	color: #757575!important;
+	margin-left: 15px;
+}
+
+.conteudo_dicas .listaConteudos .card .boxConteudo {
+	padding: 20px 0;
+    float: left;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+
+	#paginaSaude {
+		padding-top: 30px;
+	}
+
+	.conteudo_dicas .listaConteudos .card button h2 {
+		font-size: 18px;
+	}
+	
+}

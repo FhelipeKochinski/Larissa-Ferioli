@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+
+* { 
+	outline: none!important;
+	font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container-fluid {
+	padding: 0!important;
+}
+
+a:active, 
+a:checked,
+a:focus, 
+a:hover { 
+	outline: none!important; 
+	text-decoration: none;
+}
+
+body { 
+	font-family: 'Work Sans', sans-serif;
+	margin:0; 
+	padding:0;
+}
+
+.clear { 
+	clear:both;
+}
+
+img { 
+	max-width:100%!important; 
+	height:auto; 
+}
+
+.boxInterno {
+    width:100%;
+    float:left
+}
+
+/* BreadCrums pro geral */
+.bread-crumbs-pagina {
+    padding: 14px 0;
+    margin: 0;
+    float: left;
+    width: 100%;
+    background: #666666;
+}
+
+.bread-crumbs-pagina #breadcrumbs span {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.bread-crumbs-pagina .breadcrumb_last {
+    text-transform: uppercase;
+    color: #D2AB67!important;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.bread-crumbs-pagina #breadcrumbs {
+    margin: 0;
+    color: #fff!important;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.bread-crumbs-pagina #breadcrumbs a {
+    color: #fff!important;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+/* FONTES */
+
+a { 
+	text-decoration:none!important; 
+}
+
+a:hover { 
+	text-decoration:none; 
+}
+
+p, span, li {
+	color: #828282;
+	font-size: 14px;
+	line-height: 180%;
+}
+
+strong {
+	color: #828282;
+}
+
+.tituloPrincipal h1, .tituloPrincipal h2 {
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 800;
+    font-size: 60px;
+    margin: 0;
+    float: left;
+    width: 100%;
+    padding: 0 30px;
+}
+
+.tituloPrincipal {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+/* Borda */
+
+.borda {
+    display: inline-block;
+    width: 60%;
+    height: 1px;
+    background: #D2AB67;
+    margin: 30px 0;
+}
+
+/*********************************************
+** Botão
+*********************************************/
+
+.botaoGeral {
+    display: inline-block;
+    transition: all 0.2s linear 0s;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px 30px;
+    background: #D2AB67;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+/******** Conteúdo Contato *********/
+.conteudo_contato {
+    width: 100%;
+    float: left;
+    background: linear-gradient(to right, #4F4F4F 50%, #fff 50%);
+}
+
+.conteudo_contato h2 {
+    font-family: 'Abhaya Libre', serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 60px;
+    margin: 40px 0 0 0;
+    float: left;
+    width: 100%;
+    color: #fff;
+}
+
+.conteudo_contato .borda {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background: #D2AB67;
+    margin: 10px 0;
+}
+
+.conteudo_contato .titulo {
+    padding: 0;
+}
+
+.conteudo_contato .tituloPrincipal {
+    text-align: initial;
+}
+
+.conteudo_contato .link {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Lista de Ancoras */
+
+.listaAncoras {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.listaAncoras div  {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+}
+
+.listaAncoras a:hover {
+    transform: scale(1.03);
+}
+
+.listaAncoras a {
+    transition: all 0.2s linear 0s;
+    cursor: pointer;
+    color: #fff;
+    background: #D2AB67;
+    height: 90px;
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 10px 0;
+    position: relative;
+}
+
+.listaAncoras a span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 16px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    line-height: 130%;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+/*********************************************
+** Hover Zoom
+*********************************************/
+
+.hoverZoom {
+	transition: all 0.2s linear;
+}
+
+.hoverZoom:hover {
+	transform: scale(1.03);
+}
+
+@media (max-width: 768px) {
+    
+    .texto {
+        padding: 0 15px 0 15px!important;
+    }
+
+    .borda {
+        margin: 15px 0;
+    }
+	
+	/* BreadCrumb */
+	
+	.bread-crumbs-pagina {
+		background: #333;
+		margin: 0;
+	}
+	
+	.bread-crumbs-pagina #breadcrumbs {
+		font-size: 12px;
+		line-height: 170%;
+		letter-spacing: 0;
+		text-align: center;
+	}
+	
+	/* TÃ­tulo Principal */
+	
+	.tituloPrincipal h1, 
+	.tituloPrincipal h2, 
+	.tituloPrincipal p {
+		font-size: 28px!important;
+	}
+	
+	/* Entre em Contato */
+	
+	.conteudo_contato {
+		margin: 0;
+		background: #4F4F4F;
+		padding: 0 0 30px 0;
+	}
+	
+	.conteudo_contato h2 {
+		font-size: 30px;
+		text-align: center;
+	}
+	
+	.conteudo_contato h2 br {
+		display: none;
+	}
+	
+	.conteudo_contato img {
+		margin-top: 30px;
+		float: left;
+	}
+
+    /* Ancora */
+    .listaAncoras {
+        display: inline-block;
+    }
+
+    .listaAncoras div {
+		width: 100%;
+	}
+	
+}
